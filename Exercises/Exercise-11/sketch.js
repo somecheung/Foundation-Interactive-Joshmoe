@@ -18,6 +18,7 @@ function draw() {
   rotateX(frameCount * 0.01);
   rotateY(frameCount * 0.01);
   translate(0,0,0);
+  scale(5);
   model(cube);
   model(sphere);
 }
