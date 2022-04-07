@@ -1,4 +1,4 @@
-//draw a spinning octahedron
+
 let cube;
 let sphere;
 
