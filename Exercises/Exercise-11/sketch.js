@@ -1,8 +1,11 @@
 //draw a spinning octahedron
 let cube;
+let sphere;
+
 
 function preload() {
   cube = loadModel('obj/cube.obj');
+   sphere = loadModel('obj/sphere.obj');
 }
 
 function setup() {
@@ -14,4 +17,5 @@ function draw() {
   rotateX(frameCount * 0.01);
   rotateY(frameCount * 0.01);
   model(cube);
+  model(sphere);
 }
