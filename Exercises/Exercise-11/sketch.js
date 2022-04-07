@@ -14,6 +14,7 @@ function setup() {
 
 function draw() {
   background(200);
+  ambientLight(0,0,255);
   rotateX(frameCount * 0.01);
   rotateY(frameCount * 0.01);
   translate(0,0,0);
